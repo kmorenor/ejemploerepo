@@ -5,6 +5,8 @@
  */
 package ejemplojavagit;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Diana Katherin
@@ -15,7 +17,9 @@ public class Ejemplojavagit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Scanner scan;
+        scan = new Scanner();
         System.out.println("este es mi repos");
               
     }
